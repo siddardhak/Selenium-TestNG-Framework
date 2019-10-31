@@ -13,6 +13,7 @@ public class BrowserTest {
 		WebDriver driver= new ChromeDriver();
 		
 		driver.get("https://www.youtube.com/watch?v=L4auw2m9W-w&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=2");
+		//close
 		driver.close();
 
 	}
